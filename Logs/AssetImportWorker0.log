@@ -1,0 +1,571 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.14f1c1 (ed787cdc2846) revision 15562876'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.1052; Version 2004; 64bit' Language: 'zh' Physical Memory: 32544 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+F:\UnityEditor\2020.3.14f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Git/UIFramework
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+14729
+Successfully changed project path to: F:/Git/UIFramework
+F:/Git/UIFramework
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 20.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1c1 (ed787cdc2846)
+[Subsystems] Discovering subsystems at path F:/UnityEditor/2020.3.14f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Git/UIFramework/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.5749
+Initialize mono
+Mono path[0] = 'F:/UnityEditor/2020.3.14f1c1/Editor/Data/Managed'
+Mono path[1] = 'F:/UnityEditor/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/UnityEditor/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/UnityEditor/2020.3.14f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000754 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 22.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.188 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1188ms)
+		BeginReloadAssembly (37ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (337ms)
+			LoadAssemblies (37ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (128ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (23ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001834 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.805 seconds
+Domain Reload Profiling:
+	ReloadAssembly (806ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (642ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1420 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 65.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1854.
+Total: 1.735200 ms (FindLiveObjects: 0.142600 ms CreateObjectMapping: 0.057900 ms MarkObjects: 1.486300 ms  DeleteObjects: 0.047600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/UIFramework
+  artifactKey: Guid(110a0bdafe8b75341b685627c43eee43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework using Guid(110a0bdafe8b75341b685627c43eee43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7b00e2f0400e2db2b3f835da4be292') in 0.004055 seconds 
+  Import took 0.005944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.601446 seconds.
+  path: Assets/UIFramework/Editor
+  artifactKey: Guid(aae95c268d407b649bf3dca702882cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Editor using Guid(aae95c268d407b649bf3dca702882cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28aa50927ce926ac14e5cad9e2d86634') in 0.001516 seconds 
+  Import took 0.003580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001972 seconds.
+  path: Assets/UIFramework/Scripts/UIFramework/Event/EventManagerSample.cs
+  artifactKey: Guid(c82360a0c53e63c428b2808568ce1f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UIFramework/Event/EventManagerSample.cs using Guid(c82360a0c53e63c428b2808568ce1f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc82782ab29ad38c7462f23e12e2483') in 0.016167 seconds 
+  Import took 0.018213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001302 seconds.
+  path: Assets/UIFramework/Scripts/UI/Guild
+  artifactKey: Guid(db001688d1106634da7e4f85b88eedf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/Guild using Guid(db001688d1106634da7e4f85b88eedf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89d28d34cea28da5d57ae116ec9da99') in 0.001134 seconds 
+  Import took 0.002633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001144 seconds.
+  path: Assets/UIFramework/Scripts/UI/Guild/GuildCreate
+  artifactKey: Guid(028484ede2c0ad7409ebf69410a3832e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/Guild/GuildCreate using Guid(028484ede2c0ad7409ebf69410a3832e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff10e665a0c1e6cf591894f3b9ae9bd') in 0.001128 seconds 
+  Import took 0.003228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002071 seconds.
+  path: Assets/UIFramework/Resources/MainCity.prefab
+  artifactKey: Guid(0cb3b3984112e9c4c8cf2b4089458841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Resources/MainCity.prefab using Guid(0cb3b3984112e9c4c8cf2b4089458841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab23392effb236d88c68802504e07e6') in 0.034144 seconds 
+  Import took 0.036107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001577 seconds.
+  path: Assets/UIFramework/Resources/UIRoot.prefab
+  artifactKey: Guid(e0cde788358392145880cc75dccf631d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Resources/UIRoot.prefab using Guid(e0cde788358392145880cc75dccf631d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e684829787472b41486ef8303f99f48') in 0.004119 seconds 
+  Import took 0.005713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001819 seconds.
+  path: Assets/UIFramework/Scripts/UIFramework/MonoSingleton.cs
+  artifactKey: Guid(7d83dc9d8f2c673429b11367944047c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UIFramework/MonoSingleton.cs using Guid(7d83dc9d8f2c673429b11367944047c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae01559d9f081a18b1c5feeb5591e067') in 0.001419 seconds 
+  Import took 0.003074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001470 seconds.
+  path: Assets/UIFramework/Scripts/UIFramework/ScreenBase/UIOpenScreenParameterBase.cs
+  artifactKey: Guid(f6693293817982340bd8e5898e456dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UIFramework/ScreenBase/UIOpenScreenParameterBase.cs using Guid(f6693293817982340bd8e5898e456dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bcbea613c6c8c97f2a3bfbafc4e5de') in 0.001251 seconds 
+  Import took 0.002787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001711 seconds.
+  path: Assets/UIFramework/Scripts/UI/Task/TaskScreen.cs
+  artifactKey: Guid(c96df5464d748f2428d9bdeac9fab489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/Task/TaskScreen.cs using Guid(c96df5464d748f2428d9bdeac9fab489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad72dea16233344200e56e3e778374a5') in 0.001171 seconds 
+  Import took 0.002648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001545 seconds.
+  path: Assets/UIFramework/Resources/Money.prefab
+  artifactKey: Guid(1940059ee12346d4797bf70944eca41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Resources/Money.prefab using Guid(1940059ee12346d4797bf70944eca41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81620e995851e5936a96e5f5b4e58a3f') in 0.005084 seconds 
+  Import took 0.006816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001692 seconds.
+  path: Assets/UIFramework/Scripts/UI/Guild/GuildCreate/GuildCreateSubScreen.cs
+  artifactKey: Guid(222dc46778f0c024681c74a0ebbd833c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/Guild/GuildCreate/GuildCreateSubScreen.cs using Guid(222dc46778f0c024681c74a0ebbd833c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fe1606a8505487cc012f2a508d8ab2') in 0.001419 seconds 
+  Import took 0.003211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001699 seconds.
+  path: Assets/UIFramework/Scripts/UI/Guild/GuildScreen.cs
+  artifactKey: Guid(af5d6e79d2619454b8f89efc6c3640e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/Guild/GuildScreen.cs using Guid(af5d6e79d2619454b8f89efc6c3640e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccb6bd1c58aaba823c3b06303ec978a') in 0.001324 seconds 
+  Import took 0.003082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001826 seconds.
+  path: Assets/UIFramework/Scripts/UI/MainCity/MainCityCtrl.cs
+  artifactKey: Guid(27e54ee27762c2144a181204c6c28a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/MainCity/MainCityCtrl.cs using Guid(27e54ee27762c2144a181204c6c28a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75fbb0220172247e8625e34e277e17a') in 0.001418 seconds 
+  Import took 0.003293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001697 seconds.
+  path: Assets/UIFramework/Scripts/UIFramework/ScreenBase/UISubCtrlBase.cs
+  artifactKey: Guid(e4196a4220a961c49b14a01518ffcec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UIFramework/ScreenBase/UISubCtrlBase.cs using Guid(e4196a4220a961c49b14a01518ffcec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13748415213664c5384e2ff3a3cd3be5') in 0.001398 seconds 
+  Import took 0.003207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001838 seconds.
+  path: Assets/UIFramework/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808db05fcfb63097743079c637dfb6ff') in 0.001635 seconds 
+  Import took 0.003453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001408 seconds.
+  path: Assets/UIFramework/Scripts/UI
+  artifactKey: Guid(f1818c4dd4f23f64398ff4f511fcfac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI using Guid(f1818c4dd4f23f64398ff4f511fcfac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3214e04d6552dbea5fb54086736d11') in 0.001564 seconds 
+  Import took 0.003496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001844 seconds.
+  path: Assets/UIFramework/Scripts/UI/MaskScreen/MaskScreenManager.cs
+  artifactKey: Guid(c0b9db0b1a757c048b977512fd294f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/MaskScreen/MaskScreenManager.cs using Guid(c0b9db0b1a757c048b977512fd294f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1617c0b043e7739c340d8c1c0712ef0d') in 0.001397 seconds 
+  Import took 0.003419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001519 seconds.
+  path: Assets/UIFramework/Resources
+  artifactKey: Guid(7971bfadac84a7c4d8deb594a6822c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Resources using Guid(7971bfadac84a7c4d8deb594a6822c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e929d49e2e2e63107b1b225f50a2ddfa') in 0.001586 seconds 
+  Import took 0.004171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001882 seconds.
+  path: Assets/UIFramework/Resources/UIAutoMask.prefab
+  artifactKey: Guid(f09068f9934483942b6464300265a98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Resources/UIAutoMask.prefab using Guid(f09068f9934483942b6464300265a98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e9679bb25e3315ea25c8a49efe6613') in 0.003130 seconds 
+  Import took 0.005106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001412 seconds.
+  path: Assets/UIFramework/Scripts/UIFramework
+  artifactKey: Guid(6c75f55533ec4444f8b2760daf9e9770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UIFramework using Guid(6c75f55533ec4444f8b2760daf9e9770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9aada6369f5f69ef5dfcad6e131fe23') in 0.001422 seconds 
+  Import took 0.003257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001778 seconds.
+  path: Assets/UIFramework/Scripts/UI/Money/MoneyScreen.cs
+  artifactKey: Guid(737409907d4d01d4ba446a5d3e601c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/Money/MoneyScreen.cs using Guid(737409907d4d01d4ba446a5d3e601c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b46801e5ccb9427dce732e072ea1a9') in 0.001641 seconds 
+  Import took 0.003692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001444 seconds.
+  path: Assets/UIFramework/Scripts/UI/Money
+  artifactKey: Guid(3cf41ab610f878c428e26582d70b6504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/Money using Guid(3cf41ab610f878c428e26582d70b6504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46c03b3f6a816c0f195fbd8a99e153d') in 0.001527 seconds 
+  Import took 0.003891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002161 seconds.
+  path: Assets/UIFramework/Resources/Task.prefab
+  artifactKey: Guid(911340850c4cfc64c858c03189440266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Resources/Task.prefab using Guid(911340850c4cfc64c858c03189440266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5849a58dd9d91d8c64b1eb585c22ff4e') in 0.003776 seconds 
+  Import took 0.006099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001916 seconds.
+  path: Assets/UIFramework/Scripts/UIFramework/GameUIManager.cs
+  artifactKey: Guid(5e4668783a2833b43b6b2200e96688b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UIFramework/GameUIManager.cs using Guid(5e4668783a2833b43b6b2200e96688b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fe55df62e1647391cc39354d70392d') in 0.001480 seconds 
+  Import took 0.003963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001728 seconds.
+  path: Assets/UIFramework/Scripts/UIFramework/Event
+  artifactKey: Guid(006c0f3066b4a2549a2978d2616f818f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UIFramework/Event using Guid(006c0f3066b4a2549a2978d2616f818f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee345d91dc85e45b9e87ac18d364da9') in 0.001416 seconds 
+  Import took 0.003421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001738 seconds.
+  path: Assets/UIFramework/Scripts/UI/Task
+  artifactKey: Guid(9afd01152323f9240907037bbbd115bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/Task using Guid(9afd01152323f9240907037bbbd115bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db39fc383957492e82de6d6c1c31c010') in 0.001670 seconds 
+  Import took 0.004120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002180 seconds.
+  path: Assets/UIFramework/Scripts/UIFramework/ScreenBase/SubScreenBase.cs
+  artifactKey: Guid(d33994b275384b948910d999fb111cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UIFramework/ScreenBase/SubScreenBase.cs using Guid(d33994b275384b948910d999fb111cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2fdb04d090ded066c27568aabec6c9') in 0.001721 seconds 
+  Import took 0.003977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001950 seconds.
+  path: Assets/UIFramework/Scripts/UIFramework/Event/FEvent.cs
+  artifactKey: Guid(658322b502b7191499e2b8e9f3a04e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UIFramework/Event/FEvent.cs using Guid(658322b502b7191499e2b8e9f3a04e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a600eb144213bad42483e50450feed76') in 0.001325 seconds 
+  Import took 0.003148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001461 seconds.
+  path: Assets/UIFramework/Scripts/UI/Guild/GuildInfo
+  artifactKey: Guid(54c265cbe2cbdb941a304238f18f7933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/Guild/GuildInfo using Guid(54c265cbe2cbdb941a304238f18f7933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1921e16c61c4750292837cc6d871f23e') in 0.001588 seconds 
+  Import took 0.003909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002822 seconds.
+  path: Assets/UIFramework/Scripts/UIFramework/Event/EventManager.cs
+  artifactKey: Guid(ee2ec35a723331643865c5576edeb188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UIFramework/Event/EventManager.cs using Guid(ee2ec35a723331643865c5576edeb188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f5359f3d141b2437339f7468c6411f') in 0.001410 seconds 
+  Import took 0.003301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001787 seconds.
+  path: Assets/UIFramework/Resources/Guild.prefab
+  artifactKey: Guid(9521a61d5de17604c88b12c028553e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Resources/Guild.prefab using Guid(9521a61d5de17604c88b12c028553e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5779c959d729bdab34424f576c4f1f2a') in 0.027585 seconds 
+  Import took 0.030632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002016 seconds.
+  path: Assets/UIFramework/Scripts/UI/Money/MoneyCtrl.cs
+  artifactKey: Guid(1df7e33a941123f4794f3c5f6b37afd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/Money/MoneyCtrl.cs using Guid(1df7e33a941123f4794f3c5f6b37afd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fa95104a266af889c55af009295be7') in 0.001942 seconds 
+  Import took 0.004429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002456 seconds.
+  path: Assets/UIFramework/Editor/TagAndLayerManager.cs
+  artifactKey: Guid(0694c10f84ae50d43a57a047fc8dd304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Editor/TagAndLayerManager.cs using Guid(0694c10f84ae50d43a57a047fc8dd304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e633ff4309c23cd37ab527054fc516ce') in 0.001646 seconds 
+  Import took 0.003886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001816 seconds.
+  path: Assets/UIFramework/Scripts/DemoStart.cs
+  artifactKey: Guid(cc18a0df8b05eea4fbfc1e0841b5a9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/DemoStart.cs using Guid(cc18a0df8b05eea4fbfc1e0841b5a9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bedbba18769b89adff42dad80443009') in 0.001434 seconds 
+  Import took 0.003349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002165 seconds.
+  path: Assets/UIFramework/Scripts/UIFramework/ScreenBase/UIFEventAutoRelease.cs
+  artifactKey: Guid(352807c7f42f3a746ad62c9ea77e241d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UIFramework/ScreenBase/UIFEventAutoRelease.cs using Guid(352807c7f42f3a746ad62c9ea77e241d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471aa0a5b062651ecc6a7ac0177c937e') in 0.001698 seconds 
+  Import took 0.004557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001534 seconds.
+  path: Assets/UIFramework/Scripts/UI/MainCity
+  artifactKey: Guid(0ce3337e4695b4843a6b377674e20f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/MainCity using Guid(0ce3337e4695b4843a6b377674e20f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7201967bbceb31f925f5a7ee6115ea7a') in 0.001319 seconds 
+  Import took 0.003561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001951 seconds.
+  path: Assets/UIFramework/Scripts/UI/Guild/GuildCtrl.cs
+  artifactKey: Guid(510309c7b96e8654780f0afabdf7e356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/Guild/GuildCtrl.cs using Guid(510309c7b96e8654780f0afabdf7e356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68326f354ed79948e6b0611ed6599b91') in 0.017670 seconds 
+  Import took 0.019909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002114 seconds.
+  path: Assets/UIFramework/Scripts/UIFramework/ResourcesManager.cs
+  artifactKey: Guid(8be9a375de1afec4081dc78f080a8c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UIFramework/ResourcesManager.cs using Guid(8be9a375de1afec4081dc78f080a8c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c5b2616a2413231d27cc14bc8f6c49') in 0.001705 seconds 
+  Import took 0.004159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001945 seconds.
+  path: Assets/UIFramework/Scripts/UIFramework/UIConst.cs
+  artifactKey: Guid(ef2181f2b1e769c4dba748883647c686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UIFramework/UIConst.cs using Guid(ef2181f2b1e769c4dba748883647c686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27ee4f6c9cde962cbe9a49ba89ab015') in 0.001551 seconds 
+  Import took 0.003462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001663 seconds.
+  path: Assets/UIFramework/Scripts/UIFramework/ScreenBase/UICtrlBase.cs
+  artifactKey: Guid(1356eefffb530e244a8dd1dba457ba4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UIFramework/ScreenBase/UICtrlBase.cs using Guid(1356eefffb530e244a8dd1dba457ba4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceced190bda76840cb923b3c844b3535') in 0.001784 seconds 
+  Import took 0.003868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002152 seconds.
+  path: Assets/UIFramework/Scripts/UI/Guild/GuildInfo/GuildInfoSubCtrl.cs
+  artifactKey: Guid(ec98fa6f7f3087d4280e3b7e2a36ba9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/Guild/GuildInfo/GuildInfoSubCtrl.cs using Guid(ec98fa6f7f3087d4280e3b7e2a36ba9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661ce1eb40bac41e390469c735399ff7') in 0.001594 seconds 
+  Import took 0.003974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001975 seconds.
+  path: Assets/UIFramework/Scripts
+  artifactKey: Guid(3b49906cb52bee946b20d4e007a2d6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts using Guid(3b49906cb52bee946b20d4e007a2d6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1f2e865355465542a44eb55f419741') in 0.001827 seconds 
+  Import took 0.004383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001744 seconds.
+  path: Assets/UIFramework/Scripts/UI/MaskScreen
+  artifactKey: Guid(c4525d7f5e60d234b91fca3d1a6211c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/MaskScreen using Guid(c4525d7f5e60d234b91fca3d1a6211c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d19396f2feb28e868abc6c95bdc5403') in 0.001623 seconds 
+  Import took 0.003573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002278 seconds.
+  path: Assets/UIFramework/Scripts/UI/MainCity/MainCityScreen.cs
+  artifactKey: Guid(80de6fef6dea96f4b9a18ff175fa02fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/MainCity/MainCityScreen.cs using Guid(80de6fef6dea96f4b9a18ff175fa02fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9d60140aa8f7fbdb594812e855a749') in 0.001651 seconds 
+  Import took 0.003947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002198 seconds.
+  path: Assets/UIFramework/Scripts/UIFramework/Event/FEventRegister.cs
+  artifactKey: Guid(6a62ac42f83968f46954be2fb39bb738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UIFramework/Event/FEventRegister.cs using Guid(6a62ac42f83968f46954be2fb39bb738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125a134541139ebb06bc1e492e169837') in 0.001627 seconds 
+  Import took 0.003967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001339 seconds.
+  path: Assets/UIFramework/Scenes
+  artifactKey: Guid(d5552d952a529674898dd66e91221427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scenes using Guid(d5552d952a529674898dd66e91221427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532698d372696537871ef2df5fb166d4') in 0.001497 seconds 
+  Import took 0.003489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001929 seconds.
+  path: Assets/UIFramework/Scripts/UI/Guild/GuildCreate/GuildCreateSubCtrl.cs
+  artifactKey: Guid(d7c7796771bcf13488feee0923ba8e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/Guild/GuildCreate/GuildCreateSubCtrl.cs using Guid(d7c7796771bcf13488feee0923ba8e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4c358e461296c1d8cf3918268994af') in 0.001628 seconds 
+  Import took 0.003570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001829 seconds.
+  path: Assets/UIFramework/Scripts/UI/Task/TaskCtrl.cs
+  artifactKey: Guid(3c22721c1cdccc64e8946e3fb941d296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/Task/TaskCtrl.cs using Guid(3c22721c1cdccc64e8946e3fb941d296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d862def02dfd7e4f8d9c8df3e670e18') in 0.001461 seconds 
+  Import took 0.003740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001705 seconds.
+  path: Assets/UIFramework/Scripts/UIFramework/ScreenBase/ScreenBase.cs
+  artifactKey: Guid(7a33c09e607d5884aaf40e5d1d5657d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UIFramework/ScreenBase/ScreenBase.cs using Guid(7a33c09e607d5884aaf40e5d1d5657d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce6ff6198b08bcbd07d36dcad93ba1f') in 0.001503 seconds 
+  Import took 0.003346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001450 seconds.
+  path: Assets/UIFramework/Scripts/UIFramework/ScreenBase
+  artifactKey: Guid(3c01cc868364cf84886773bf72f6b022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UIFramework/ScreenBase using Guid(3c01cc868364cf84886773bf72f6b022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d2a27c987d71f678bb0be0d5dca0e1') in 0.001400 seconds 
+  Import took 0.003503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001895 seconds.
+  path: Assets/UIFramework/Scripts/UI/Guild/GuildInfo/GuildInfoSubScreen.cs
+  artifactKey: Guid(5026726fcdd73bb4285cc6e6a375429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/UI/Guild/GuildInfo/GuildInfoSubScreen.cs using Guid(5026726fcdd73bb4285cc6e6a375429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc815c122a370f5cf5fca60ba90af69') in 0.001665 seconds 
+  Import took 0.003881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002148 seconds.
+  path: Assets/UIFramework/Resources/HeadImg.jpg
+  artifactKey: Guid(4c7a01f6da757cf4a8d9c155e67b6cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Resources/HeadImg.jpg using Guid(4c7a01f6da757cf4a8d9c155e67b6cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0400d0250c91c6c0233ed9bff85f1523') in 0.081757 seconds 
+  Import took 0.083861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002180 seconds.
+  path: Assets/UIFramework/Scripts/Data/PlayerData.cs
+  artifactKey: Guid(461185ceeec6f304394cbfe609f48267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/Data/PlayerData.cs using Guid(461185ceeec6f304394cbfe609f48267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14271891bb380e7cf0619e3876a6af9b') in 0.001382 seconds 
+  Import took 0.003338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001421 seconds.
+  path: Assets/UIFramework/Scripts/Data
+  artifactKey: Guid(4c7e26db47386984fb18515f0ea6c18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIFramework/Scripts/Data using Guid(4c7e26db47386984fb18515f0ea6c18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069d23f23a8faa01f04329bb09ce6d9a') in 0.001307 seconds 
+  Import took 0.003180 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
